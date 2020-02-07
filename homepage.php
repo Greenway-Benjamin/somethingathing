@@ -47,7 +47,7 @@
 
 	<!-- style="display:none" -->
       <div id="imageDiv" style="display:none">
-	  <img class="imageSpot" src="northtrees.JPG" width="50%" height="50%">-->
+	  <img class="imageSpot" src="northtrees.jpg" width="50%" height="50%">-->
 	  <p> for some reason my image wouldnt load so #trees trees trees trees trees trees</p>
 
 	  </div>

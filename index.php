@@ -1,3 +1,3 @@
 <?php
-  phpinfo();
+  header (homepage.php);
 ?>

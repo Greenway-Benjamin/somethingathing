@@ -1,0 +1,60 @@
+body {
+	background-color: Teal;
+}
+
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  padding:20px;
+  justify-content: center;
+}
+.main p:hover{
+	
+	background: #ddd;
+	
+}
+
+.TitleBar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  text-align: center;
+}
+
+.TitleBar p{
+
+text-align: center;
+	
+}
+
+.leftsidenav {
+  height: 80%; /* Full-height: remove this if you want "auto" height */
+  width: 167px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  bottom: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.myImage{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transform: rotate(90deg); 
+	height: 10%;
+	width: 10%;
+	color: Black;
+	
+}
+
+.imageSpot{
+	
+	width: 20%;
+	height: 20%;
+	
+}
+

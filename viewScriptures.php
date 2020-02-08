@@ -5,10 +5,10 @@ ini_set('display_errors', 1);
 require ('dbConnect.php');
 $db = getdb();
 //SELECT id, book, chapter, verse, content FROM scriptureBD;
-$query = 'SELECT id, book, chapter, verse, content FROM scriptures';
+/*$query = 'SELECT id, book, chapter, verse, content FROM scriptures';
 $stmt = $db->prepare($query);
 $stmt->execute();
-$scriptures = $stmt->fetchAll(PDO::FETCH_ASSOC);
+$scriptures = $stmt->fetchAll(PDO::FETCH_ASSOC);*/
 ?>
 <!DOCTYPE html>
 <html>
@@ -20,10 +20,11 @@ $scriptures = $stmt->fetchAll(PDO::FETCH_ASSOC);
 	<div>
 		<h1>Scripture Resources</h1>
 		<ul>
-		
+
 			<?php
+			echo $db;
 			// Go through each result
-			foreach ($scriptures as $scripture)
+			/*foreach ($scriptures as $scripture)
 			{
 				$scripture_id 	= $scripture['id'];
 				$book 			= $scripture['book'];
@@ -31,7 +32,7 @@ $scriptures = $stmt->fetchAll(PDO::FETCH_ASSOC);
 				$verse 			= $scripture['verse'];
 				$content 		= $scripture['content'];
 				echo "<li><h3><a href='scriptureLinks.php?scripture_id=$scripture_id'>$book $chapter:$verse</a><h3></li>";
-			}
+			}*/
 			?>
 		</ul>
 	</div>

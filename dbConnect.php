@@ -1,7 +1,8 @@
 <?php
 
 function getdb() {
-	return 3;
+	$db = 3;
+	return $db;
 }​
 
 ?>

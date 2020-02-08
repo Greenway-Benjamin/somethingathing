@@ -1,7 +1,7 @@
 <?php
 
 function getdb() {
-	$db = 3;
+	$db = "Hello";
 	return $db;
 }​
 

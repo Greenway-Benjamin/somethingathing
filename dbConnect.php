@@ -1,8 +1,4 @@
 <?php
-
-function getdb() {
-	$db = NULL;
-​
 function getdb() {
 $db = NULL;
 try {
